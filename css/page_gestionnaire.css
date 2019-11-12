@@ -1,0 +1,48 @@
+body {
+    background: url('../images/background.jpg') no-repeat fixed center center;
+    background-size: cover;
+	margin:30px;
+}
+
+#gauche, #droite{
+	width:100%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+	padding:5px;
+    border: 1px solid black;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	text-decoration: underline;
+}
+
+#droite{
+	margin-left: 30px;
+	float:right;
+	width:63%;
+	border: 1px solid black;
+	padding:10px;
+}
+
+#gauche{
+	float:left;
+	width:30%;
+	border: 1px solid black;
+	padding:10px;
+}
+
+footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 30px;
+	width: 100%;
+}
